@@ -3,3 +3,45 @@
 h1 {
     color: $red_color;
 }
+
+.navbar-brand,
+.nav-link {
+    color: $white_color;
+}
+
+.card-course-item {
+    margin: 16px 0 8px;
+}
+
+.card-course-item:hover {
+    transform: translateY(-8px);
+    transition: linear 0.08;
+}
+
+.card-link {
+    text-decoration: none;
+    color: $black_color;
+}
+
+.card-title,
+.card-text {
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.card-title {
+    -webkit-line-clamp: 1;
+}
+
+.card-text {
+    -webkit-line-clamp: 2;
+}
+
+.card-btn {
+    background: linear-gradient(to right bottom, #ff8f26, #ff5117);
+    border: none;
+}
